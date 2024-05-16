@@ -1,0 +1,159 @@
+@font-face 
+{
+    font-family: 'Nourd'; /* Name for the custom font */
+    src: url('D:/RSET/s6 mini/font/nourd_bold.ttf') format('truetype'); 
+}
+
+@font-face 
+{
+    font-family: 'Hatton';
+    src: url('D:/RSET/s6 mini/font/PP Hatton Bold 700.ttf') format('truetype'); 
+}
+
+@font-face 
+{
+    font-family: 'Nourd Light';
+    src: url('D:/RSET/s6 mini/font/nourd_light.ttf') format('truetype'); 
+}
+
+
+body {
+    background-color: #1E1F24;
+    font-family: 'Hatton','Nourd'; 
+    font-weight: bolder;
+    color: white;
+    overflow-y: auto;
+    height: 100vh; /* Set full viewport height */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 0px;
+    position: relative; /* Make body position relative for absolute positioning */
+}
+
+.container 
+{
+    font-family: 'Hatton'; 
+    text-align: center; /* Center text horizontally */
+    font-size: 58px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo1
+{
+    font-family: 'Hatton'; 
+    position: absolute; 
+    top: 0; 
+    right: 94.5%;
+    font-size: 20px;
+}
+
+.logo2
+{
+    font-family: 'Hatton'; 
+    position: absolute; 
+    top: 39px; 
+    right: 94.5%; 
+    font-size: 20px;
+}
+
+.container4 
+{
+    font-family: 'Nourd'; 
+    position: absolute; 
+    top: 405px;
+    left: 49.6%; /* Move container4 to the middle of the page */
+    transform: translateX(-50%); /* Adjust for centering */
+    font-size: 8px;
+    opacity: 50%; 
+}
+
+.option
+{
+    display: flex;
+    position: absolute;
+    left: 80%;
+    top:20px;
+}
+
+.option nav 
+{
+    display: flex;
+   
+}
+
+.option h4
+{
+    margin-right: 20px; /* Adjust this value to set the space between the elements */
+    margin-left: 30px;
+}
+
+.result
+{
+    margin-left: 150px; /* Adjust this value to set the space between the elements */
+}
+
+.option a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.option a:hover, .option a:active
+{
+    text-decoration: underline;
+}
+
+.info
+{
+    height: 40%;
+    margin-top: 300px;
+    width: 100%;
+}
+
+.info h1
+{
+    font-family: "Hatton";
+}
+
+.info ul li
+{
+    font-family: "Nourd Light";
+    opacity: 50%;
+    list-style-type: none;
+}
+
+.images
+{
+    display: flex;
+}
+
+.one
+{
+    margin-left: 450px;
+}
+
+.container0 
+{
+    font-family: 'Hatton'; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+}
+
+.uploaded-image-container {
+    height: 100%; /* Make the image container take up the full viewport height */
+    display: flex; /* Use flexbox to center the image vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+}
+
+.uploaded-image-container img {
+    max-width: 90%; /* Ensure the image does not exceed the viewport width */
+    max-height: 90%; /* Ensure the image does not exceed the viewport height */
+}
+
+
+
